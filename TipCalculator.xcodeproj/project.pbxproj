@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A30C6EF28F8580C00FAB9C1 /* ContentViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A30C6EE28F8580C00FAB9C1 /* ContentViewPage.swift */; };
 		1A8034E528F835EB008D1F1A /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8034E428F835EB008D1F1A /* TipCalculatorTests.swift */; };
 		1A8034EC28F83875008D1F1A /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8034EB28F83875008D1F1A /* TipCalculator.swift */; };
 		1A8034F428F844A2008D1F1A /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8034F328F844A2008D1F1A /* TipCalculatorUITests.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A30C6EE28F8580C00FAB9C1 /* ContentViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewPage.swift; sourceTree = "<group>"; };
 		1A8034E228F835EB008D1F1A /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8034E428F835EB008D1F1A /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
 		1A8034EB28F83875008D1F1A /* TipCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A30C6ED28F857E900FAB9C1 /* Page Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1A30C6EE28F8580C00FAB9C1 /* ContentViewPage.swift */,
+			);
+			path = "Page Objects";
+			sourceTree = "<group>";
+		};
 		1A8034E328F835EB008D1F1A /* TipCalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 		1A8034F228F844A2008D1F1A /* TipCalculatorUITests */ = {
 			isa = PBXGroup;
 			children = (
+				1A30C6ED28F857E900FAB9C1 /* Page Objects */,
 				1A8034F328F844A2008D1F1A /* TipCalculatorUITests.swift */,
 				1A8034F528F844A2008D1F1A /* TipCalculatorUITestsLaunchTests.swift */,
 			);
@@ -276,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A30C6EF28F8580C00FAB9C1 /* ContentViewPage.swift in Sources */,
 				1A8034F628F844A2008D1F1A /* TipCalculatorUITestsLaunchTests.swift in Sources */,
 				1A8034F428F844A2008D1F1A /* TipCalculatorUITests.swift in Sources */,
 			);
